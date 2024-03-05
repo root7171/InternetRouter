@@ -1,0 +1,2093 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(58, 39, 39); */
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    background-color: rgb(56, 4, 245);
+    top: 5%;
+    left: 5%;
+    border-radius: 1em;
+    border: 5px solid black;
+    animation-name: m1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    box-shadow: inset 5px 5px 20px 5px blue;
+}
+
+.dot{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 7px;
+    background-color: rgb(19, 162, 245);
+    bottom: -12%;
+    border: 3px solid black;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation-name: d1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 10px aqua;
+}
+
+.top1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(245, 54, 7);
+    bottom: 92px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: m2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    box-shadow: inset 5px 5px 20px 5px red;
+}
+
+.bot1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 125, 4);
+    bottom: 11px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation-name: m3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: inset 5px 5px 20px 5px orange;
+}
+
+
+/* MEORE YUTI !!!!!!!!!!!!!!!!!!*/
+.box2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    top: 630px;
+    left: -50px;
+    border-radius: 1em;
+    border: 5px solid black;
+    animation-name: b2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    box-shadow: inset 5px 5px 20px 5px blue;
+}
+
+.dot2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7px;
+    height: 20px;
+    background-color: aqua;
+    right: -15px;
+    border: 3px solid black;
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    animation-name: d2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 10px aqua;
+}
+
+.left2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 40px;
+    background-color: red;
+    right: 92px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: l1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    box-shadow: inset 5px 5px 20px 5px red;
+}
+
+.right2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 40px;
+    background-color: orange;
+    left: -45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation-name: r1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: inset 5px 5px 20px 5px orange;
+}
+
+
+/* BOX SAMIIIIII !!!!!!!!!!!! */
+.box3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    background-color: blue;
+    top: 610px;
+    left: 1565px;
+    border-radius: 1em;
+    border: 5px solid black;
+    animation-name: botrightmid;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    box-shadow: inset 5px 5px 20px 5px blue;
+}
+
+.dot3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 7px;
+    background-color: aqua;
+    top: -12%;
+    border: 3px solid black;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation-name: d3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 1px 1px 10px aqua;
+}
+
+.bright1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    top: 11px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation-name: botright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: inset 5px 5px 20px 5px orange;
+}
+
+.bright2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    top: 92px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation-name: botright2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    box-shadow: inset 5px 5px 20px 5px red;
+}
+
+/* centri */
+.main{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(70, 62, 62);
+    top: 225px;
+    left: 710px;
+    border-radius: 1em;
+    border: 1px solid black;
+    box-shadow: inset 0 0 20px;
+}
+.lamp1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    margin-right: 50%;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+.lamp2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    margin-right: 40%;
+    animation-name: lamp2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+.lamp3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    margin-right: 30%;
+    animation-name: lamp3;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+.lamp4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    margin-right: 20%; 
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+.lamp5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    animation-name: lamp5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+.lamp6{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3px;
+    height: 10px;
+    background-color: rgb(35, 230, 35);
+    bottom: 5px;
+    margin-left: 15px;
+    animation-name: lamp6;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 5px greenyellow;
+}
+
+/* KABELEBI */
+
+.kabeli1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    height: 300px;
+    background-color: black;
+    top: 100%;
+    border-bottom-left-radius: 5px;
+}
+
+.kabeli2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 6px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.kabeli3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    height: 200px;
+    background-color: black;
+    right: 0;
+    bottom: 0;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.kabeli4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height: 6px;
+    background-color: black;
+    left: 0;
+    top: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.kabeli5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6px;
+    height: 120px;
+    background-color: black;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 5px;
+}
+
+.kabeli6{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+    height: 6px;
+    background-color: black;
+    left: 7px;
+    border-bottom-right-radius: 5px;
+}
+
+.kabeli7{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 150px;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kabeli8{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    height: 6px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kabeli9{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 100px;
+    right: 0;
+    top: 0;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.kabeli10{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 420px;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kabeli11{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 500px;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kabeli12{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 134px;
+    height: 6px;
+    right: 0;
+    top: 0;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kabeli13{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 88px;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-top-left-radius: 5px;
+}
+
+.kabeli14{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 250px;
+    bottom: 10px;
+    background-color: black;
+    border-top-right-radius: 5px;
+}
+
+.kabeli15{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    height: 6px;
+    top: 0;
+    right: 0;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.kabeli16{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 140px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.kabeli17{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 120px;
+    height: 6px;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kabeli18{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kabeli19{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 432px;
+    height: 6px;
+    right: 0;
+    top: 0;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.kabeli20{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 6px;
+    height: 155px;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-top-left-radius: 5px;
+}
+
+.main:hover{
+    color: aqua;
+    cursor: pointer;
+    font-size: 150%;
+    box-shadow: 5px 5px 40px aqua;
+    transform: scale(1.1);
+}
+.box1:hover{
+    /* color: aqua; */
+    cursor: pointer;
+    transform: scale(1.02);
+    /* box-shadow: 2px 2px 20px aqua; */
+}
+
+/* kabeli ertis wertilebi */
+
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
+    border-bottom: 3px solid aqua;
+    bottom: 10px;
+    animation-name: movetop;
+    animation-duration: 1.8s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.t2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
+    border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.t3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
+    border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.t4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
+    border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.t5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+    border-right: 1.5px solid transparent;
+    border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* kabeli 2 wertilebi */
+.tl1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    animation-name: moveleft;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tl3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tl4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tl5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* kabeli 3 wertilebi */
+
+.tb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 5px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.55px solid transparent;
+	border-top: 3px solid aqua;
+    animation-name: movedown;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tb2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.55px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tb3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.55px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+} 
+.tb4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.55px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+} 
+ 
+/* kabeli 4 wrtilebi */
+.tk1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 10px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    animation-name: moveleft2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 1.3s;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tk2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tk3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+.tk4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+.tk5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+.tk6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 20px;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* kabeli 5 wertilebi */
+
+.tp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 5px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    animation-name: movetop2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    box-shadow: 2px 2px 5px aqua, -2px -2px 5px aqua;
+}
+.tp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.tp3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 kabeli6 wertilebi*/
+
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2left1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 11s;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.b3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.b4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.b5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+
+/* box2 kabeli7 wertilebi */
+.br1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2down1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 9.3s;
+}
+.br2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.br3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 kabeli8 wertilebi */
+.bl1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 7px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2left2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 7.7s;
+}
+.bl2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bl3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 kabeli9 */
+.bk1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    bottom: 7px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2top1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 6.2s;
+}
+.bk2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+
+/* box2 kabeli10 */
+.bf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 9px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2left3;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
+}
+.bf2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bf3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+.bf4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+.bf5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bf6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 11 */
+.bb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2down2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 2.9s;
+}
+.bb2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bb8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 12 */
+.bu1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2right;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+.bu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bu3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 13 */
+.bi1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 10px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box2top2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+}
+
+.bi2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 20px;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+
+/* box3 14 */
+
+.bg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3down3;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 9.8s;
+}
+.bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bg4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bg5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box3 15 */
+.bh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3right2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 8.1s;
+}
+.bh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bh3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bh4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bh5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bh6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bh7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box2 16 */
+.bj1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    top: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3down2;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 6.4s;
+}
+.bj2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bj3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box3 17 */
+.bd1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3left1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 4.7s;
+}
+.bd2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-right: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    right: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box3 18 */
+.ba1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3down1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.ba2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.ba3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-top: 3px solid aqua;
+    top: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box3 19 */
+.bs1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3right1;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+.bs2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bs3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bs4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bs5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bs6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1.5px solid transparent;
+	border-left: 3px solid aqua;
+	border-bottom: 1.5px solid transparent;
+    left: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+/* box3 20 */
+.bc1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    bottom: 10px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+    animation-name: box3top4;
+    animation-duration: 1.7s;
+    animation-timing-function: cubic-bezier(0, -0.1, 0.1, 0);
+    animation-iteration-count: infinite;
+}
+.bc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+.bc3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 1.5px solid transparent;
+	border-right: 1.5px solid transparent;
+	border-bottom: 3px solid aqua;
+    bottom: 20px;
+    box-shadow: 2px 2px 10px aqua, -2px -2px 5px aqua;
+}
+
+
+/* box3 20 */
+@keyframes box3top4 {
+    form{transform: translateY(200px)}
+    to{transform: translateY(-90px);}
+}
+
+/* box3 20 */
+@keyframes box3right1 {
+    form{transform: translateX(-100px)}
+    to{transform: translateX(300px);}
+}
+
+/* box3 19 */
+@keyframes box3down1{
+    form{transform: translateY(-200px)}
+    to{transform: translateY(90px);}
+}
+
+/* box3 18 */
+@keyframes  box3left1{
+    form{transform: translateX(100px)}
+    to{transform: translateX(-80px);}
+}
+
+/* box3 17 */
+@keyframes box3down2{
+    form{transform: translateY(-80px)}
+    to{transform: translateY(80px);}
+}
+
+/* box3 16 */
+@keyframes  box3right2{
+    form{transform: translateX(-100px)}
+    to{transform: translateX(350px);}
+}
+
+/* box3 15 */
+@keyframes   box3top1{
+    form{transform: translateY(200px)}
+    to{transform: translateY(-140px);}
+}
+
+/* box3 14 */
+@keyframes box3down3 {
+    form{transform: translateY(-200px)}
+    to{transform: translateY(140px);}
+}
+
+/* box2 13 */
+@keyframes box2top2 {
+    form{transform: translateY(200px)}
+    to{transform: translateY(-45px);}
+}
+
+
+/* box2 12 */
+@keyframes box2right {
+    form{transform: translateX(-100px)}
+    to{transform: translateX(70px);}
+}
+
+
+/* box2 11 */
+@keyframes box2down2 {
+    form{transform: translateY(-200px)}
+    to{transform: translateY(330px);}
+}
+
+/* box2 10 */
+@keyframes box2left3 {
+    form{transform: translateX(100px)}
+    to{transform: translateX(-290px);}
+}
+
+/* box2 kabeli9 */
+@keyframes box2top1 {
+    form{transform: translateY(20px)}
+    to{transform: translateY(-60px);}
+}
+
+
+/* box2 kablei8 */
+@keyframes box2left2 {
+    form{transform: translateX(200px)}
+    to{transform: translateX(-140px);}
+}
+
+/* box2 kabeli7 modzraoba */
+@keyframes box2down1 {
+    form{transform: translateY(-60px)}
+    to{transform: translateY(90px);}
+}
+
+/* bxo2 kablei6 modzroaba */
+@keyframes box2left1 {
+    form{transform: translateX(200px)}
+    to{transform: translateX(-205px);}
+}
+    
+
+/* kabeli 5 modzroaba */
+@keyframes movetop2 {
+    form{transform: translateY(200px)}
+    to{transform: translateY(-60px);}
+}
+
+/* kabeli 4 modzraoba */
+@keyframes moveleft2 {
+    form{transform: translateX(200px)}
+    to{transform: translateX(-300px);}
+}
+
+
+/* kabeli 3 modzraoba*/
+@keyframes movedown {
+    form{transform: translateY(-200px)}
+    to{transform: translateY(120px);}
+}
+
+
+/* kabeli 2 modzraoba */
+@keyframes moveleft {
+    form{transform: translateX(200px)}
+    to{transform: translateX(-200px);}
+}
+
+
+/* kabeli 1 modzraoba */
+@keyframes movetop {
+    form{transform: translateY(200px)}
+    to{transform: translateY(-200px);}
+}
+
+/* danarchenbei domxalia itokshi */
+@keyframes d1 {
+    0%{background-color: rgb(255, 255, 255);}
+    50%{background-color: rgb(0, 252, 252);}
+    100%{background-color: rgb(255, 255, 255);}
+} 
+
+@keyframes m1 {
+    0% {background-color:rgb(56, 4, 245);}
+    50% {background-color: black;}
+    100% {background-color:rgb(56, 4, 245); }
+}
+
+@keyframes m2 {
+    0%   {background-color:red;} 
+    50%  {background-color: black; }
+    100% {background-color:red; }
+}
+
+@keyframes m3 {
+    0%   {background-color: rgb(255, 125, 4);}
+    50%  {background-color: black; }
+    100% {background-color: rgb(255, 125, 4); }
+}
+
+@keyframes l1 {
+    0%   {background-color:red;} 
+    50%  {background-color: black; }
+    100% {background-color:red; }
+}
+
+@keyframes r1 {
+    0%   {background-color: rgb(255, 125, 4);}
+    50%  {background-color: black; }
+    100% {background-color: rgb(255, 125, 4); }
+}
+
+@keyframes d2 {
+    0%{background-color: rgb(255, 255, 255);}
+    50%{background-color: rgb(0, 252, 252);}
+    100%{background-color: rgb(255, 255, 255);}
+}
+
+@keyframes b2 {
+    0% {background-color:rgb(56, 4, 245);}
+    50% {background-color: black;}
+    100% {background-color:rgb(56, 4, 245); }
+}
+
+@keyframes botright {
+    0%   {background-color: rgb(255, 125, 4);}
+    50%  {background-color: black; }
+    100% {background-color: rgb(255, 125, 4); }
+}
+
+@keyframes botrightmid {
+    0% {background-color:rgb(56, 4, 245);}
+    50% {background-color: black;}
+    100% {background-color:rgb(56, 4, 245); }
+}
+
+@keyframes botright2 {
+    0%   {background-color:red;} 
+    50%  {background-color: black; }
+    100% {background-color:red; }
+}
+
+@keyframes d3 {
+    0%{background-color: rgb(255, 255, 255);}
+    50%{background-color: rgb(0, 252, 252);}
+    100%{background-color: rgb(255, 255, 255);}
+} 
+
+/*  LAMPS */
+
+@keyframes lamp3 {
+    0%{opacity: 0;}
+}
+
+@keyframes lamp5 {
+    0%{opacity: 0;}
+}
+
+@keyframes lamp2 {
+    0%{opacity: 0;}
+}
+
+@keyframes lamp6 {
+    0%{opacity: 0;}
+}
